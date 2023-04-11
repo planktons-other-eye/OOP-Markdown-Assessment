@@ -31,6 +31,8 @@ __next__() ---> allows us to get next value when iterating
 
 #### Overview of Object Oriented Programming: 
 
+</br>
+
 **Object Oriented Programming:** focuses on the creation of custom classes for special objects 
 
 **Class:** description of a new object that can be made, classes contain attributes and methods 
