@@ -53,21 +53,22 @@ Example of class Dog with methods and attributes:
 
 Example: 
 
-
+```python
     class Person:
         pass
     student = Person() #student is now a Person Object
     print(student)
-
+```
 
 A class can have methods:
 
+```python
     class Person: 
         def greet(self):
             print("Hello, how are you?")
     individual = Person()
     individual.greet()
-
+```
 
 **def __init__(self):** ---> the initialization method
     -the init method is executed as soon as object of class is instantiated 
@@ -78,6 +79,7 @@ A class can have methods:
 
 Example: 
 
+```python
     class Person:
         def __init__(self, name):
             self.name = name
@@ -87,6 +89,7 @@ Example:
 
     bob = Person("Bob")
     bob.greet()'''
+```
 
 _-A list is an object in python 3_
 
@@ -94,7 +97,7 @@ _-A list is an object in python 3_
 
 1: Implement Person class, needs to create a Person with a last name, create method to set birth year, create method to print age 
 
-
+```python
     class Person: 
 
         def __init__(self, lastname, age):
@@ -115,9 +118,11 @@ _-A list is an object in python 3_
     p.greet()
     print(p.bday(2005))
     p.ages()
+```
 
 2: Create your own class
 
+```python
     class Dog:
 
         def __init__(self, name, breed, age):
@@ -130,5 +135,6 @@ _-A list is an object in python 3_
 
     doggy = Dog("Bob", "Mutt", 2)
     doggy.greet()
-    
+```
+
 *End of notes*
