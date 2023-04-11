@@ -6,17 +6,19 @@
 
 #### Example: printing all cards in deck 
 
-    class Deck:
-        def __iter__(self):
-            return self
+```python
+class Deck:
+    def __iter__(self):
+        return self
 
-        def __next__(self):
-            self.__index += 1
-            if self.__index == len(self.__cards):
-                self.__index = -1 #index reset 
-                raise StopIteration 
-            else:
-                return self.__cards[self.__index]
+    def __next__(self):
+        self.__index += 1
+        if self.__index == len(self.__cards):
+            self.__index = -1 #index reset 
+            raise StopIteration 
+        else:
+            return self.__cards[self.__index]
+```
  
 </br>
 
