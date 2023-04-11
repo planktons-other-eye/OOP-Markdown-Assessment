@@ -51,5 +51,5 @@ __next__() ---> allows us to get next value when iterating
     -we can have 2 diff classes with same attributes and methods 
     -we can have child override methods from the parent so the child can utilize them differently 
     
-_End of notes _
+*End of notes*
 
