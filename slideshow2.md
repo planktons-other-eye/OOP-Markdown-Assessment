@@ -9,6 +9,7 @@
 
 #### Example of encapsulation: 
 
+```python
     class Student:
         def __init__(self, name, num):
             self.name = name
@@ -19,9 +20,11 @@
 
     s = Student("bob", 198)
     print(s.__studentnum()) #will cause error because encapsulated 
+```
 
 #### The importance of encapsulation: 
 
+```python
     class Student:
         def __init__(self, name):
             self.name = name
@@ -30,6 +33,7 @@
     print(s.name) # Bob
     s.name = "Mel"
     print(s.name) # Mel
+```
 
 _Attribute can be changed if not encapsulated (can change private data like passwords)_ 
 
@@ -38,6 +42,7 @@ _Attribute can be changed if not encapsulated (can change private data like pass
 
 **A setter and a getter when using encapsulated attributes:**
 
+```python
     class Student:
         def __init__(self, name):
             self.__name = name
@@ -47,7 +52,7 @@ _Attribute can be changed if not encapsulated (can change private data like pass
 
         def getname(self):
             return self.__name
-
+```
 
 </br>
 
@@ -63,6 +68,7 @@ _**-there is no overloading in python**_
 
 #### Example of two different classes with the same method:
 
+```python
     class Bear:
         def sound(self):
             print("Roar")
@@ -78,6 +84,7 @@ _**-there is no overloading in python**_
 
     makeSound(bears)
     makeSound(dogs)
+```
 
 -therefore two diff classes can have same methods, *Polymorphism*
 
@@ -91,6 +98,7 @@ _**-there is no overloading in python**_
 
 #### Example: 
 
+```python
     class Dog:
         def __init__(self, name):
             self.__name = name 
@@ -100,6 +108,7 @@ _**-there is no overloading in python**_
 
     corgi = Dog("pup")
     print(pup) #makes object printable 
+```
 
 **Benefits of overriding built-in methods and operators:**
 
