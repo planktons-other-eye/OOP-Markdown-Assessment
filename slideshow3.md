@@ -28,6 +28,7 @@
 
 #### Single inheritance example:
 
+```python
     class Parent:
         #code block 
     class Child(Parent):
@@ -35,9 +36,11 @@
         def __init__(self, param, param2):
             Parent.__init__(self, param):
             self.param2 = param2
+```
 
 #### Example:
 
+```python
     class Person:
         def __init__(self, name):
             self.__name = name 
@@ -49,6 +52,7 @@
             Person.__init__(self, name)
             self.__sNum = num 
         def get_stud_name(self):
+```
 
 </br>
 </br>
@@ -58,6 +62,7 @@
 
 #### Example of super():
 
+```python
     class Person:
         def __init(self, name):
             self.__name = name 
@@ -65,16 +70,17 @@
         def __init__(self, name, num):
             super().__init__(name)
             self.__sNum = num 
-            
+```           
 </br>
 
 #### Polymorphism in inherited classes: 
 
+```python
     class Parent:
         def method(self):
             pass
     class Child(Parent):
         def method(self):
             #this is same method name but polymorphed into something else 
-            
+```
 _End of notes_
