@@ -7,7 +7,7 @@
   -restricting certain methods to be callable 
   -use double underscores as a prefix to hide attributes and methods
 
-Example of encapsulation: 
+#### Example of encapsulation: 
 
     class Student:
         def __init__(self, name, num):
@@ -31,7 +31,10 @@ Example of encapsulation:
     s.name = "Mel"
     print(s.name) # Mel
 
-_Attribute can be changed if not encapsulated (can change private data like passwords)_
+_Attribute can be changed if not encapsulated (can change private data like passwords)_ 
+
+</br>
+</br>
 
 **A setter and a getter when using encapsulated attributes:**
 
@@ -44,6 +47,9 @@ _Attribute can be changed if not encapsulated (can change private data like pass
 
         def getname(self):
             return self.__name
+
+
+</br>
 
 **Overloading:** two methods in one class have the same method name, but different parameters
 
@@ -83,7 +89,7 @@ _**-there is no overloading in python**_
 
 -we can have a child override methods inherited by the parent where the child could utilize the method differently 
 
-Example: 
+#### Example: 
 
     class Dog:
         def __init__(self, name):
@@ -99,6 +105,7 @@ Example:
 
 -start to manipulate how the Object behaves when met with built-in methods and operators 
 
+</br>
 
 **__repr__() base function:** return a string conatining a prinatble representation of an object, allows us to present a printable version of our object, while __str__ allows us to convert our object to string
 
